@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 720px;
+  width: 100%;
+  background-image: url(../images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header nav img {
+  padding: 35px 0;
+}
+
+header nav {
+  background-color: #000;
+}
+
+header nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav a {
+  display: block;
+  line-height: 30px;
+  padding: 50px 10px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: #B78B57;
+  border-bottom: 5px solid #B78B57;
+  padding-bottom: 45px;
+  margin: 0 auto;
+}
+
+header .hero {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .hero h1 {
+  color: #FFF;
+  margin-top: 140px;
+  font-size: 60px;
+}
+
+header .hero h1 .span-brown {
+  color: #B88B58;
+}
+
+header .hero p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFF;
+  margin-top: -30px;
+}
+
+header .hero .button {
+  width: 195px;
+  height: 45px;
+  color: #FFF;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  border-radius: 25px;
+  margin: 60px auto 0 auto;
+  padding-top: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+header .hero .button:hover {
+  background-color: #000;
+}
+
+header .hero .pagination-dots {
+  margin-top: 110px;
+}
+
+header .hero .call-button {
+  text-align: right;
+  margin: 0px 50px;
+}
+
+header .hero .call-button .call-button-icon {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  border-radius: 50%;
+  color: #FFF;
+  background-color: #B78B57;
+  font-size: 32px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+header .hero .call-button .call-button-icon:hover {
+  transform: scale(1.1);
+}
+
+.about-us .about-us-header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-us .about-us-header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 60px;
+}
+
+.about-us .about-us-header p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ADADAD;
+  margin-top: -20px;
+}
+
+.about-us .about-us-text p {
+  padding-top: 5px;
+}
+
+.about-us .about-us-text img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us .button {
+  width: 195px;
+  height: 45px;
+  border-radius: 25px;
+  color: #FFF;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 60px;
+  padding-top: 13px;
+  cursor: pointer;
+}
+
+.about-us .button:hover {
+  background-color: #000;
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 0px;
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
