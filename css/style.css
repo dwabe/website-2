@@ -4,13 +4,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .row:before,
@@ -239,6 +239,116 @@ header .hero .call-button .call-button-icon:hover {
 
 .services .services-content .service-right {
   border-right: 2px solid #383838;
+}
+
+.projects .projects-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.projects .projects-header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 60px;
+}
+
+.projects .projects-header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.projects .projects-nav {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.projects .projects-nav li {
+  display: inline-block;
+  border: 1px solid #CFCFCF;
+  background-color: #EDEDED;
+}
+
+.projects .projects-nav li:hover {
+  border-bottom: 5px solid #B78B57;
+  margin-bottom: -5px;
+}
+
+.projects .projects-nav .projects-nav-left {
+  border-radius: 40px 0 0 40px;
+  width: 120px;
+}
+
+.projects .projects-nav .projects-nav-right {
+  border-radius: 0 40px 40px 0;
+  width: 120px;
+}
+
+.projects .projects-nav a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 10px;
+}
+
+.projects .projects-gallery-item {
+  display: block;
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin: 10px;
+}
+
+.projects .projects-gallery-item:hover .layer {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.projects .projects-gallery-item:hover .layer h1,
+.projects .projects-gallery-item:hover .layer p {
+  opacity: 1;
+}
+
+.projects .projects-gallery-item .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  transition: .8s;
+  cursor: pointer;
+}
+
+.projects .projects-gallery-item .layer h1,
+.projects .projects-gallery-item .layer p {
+  position: relative;
+  padding-top: 10px;
+  font-weight: 400;
+  opacity: 0;
+  transition: .8s;
+}
+
+.projects .projects-button {
+  border-radius: 25px;
+  width: 195px;
+  height: 45px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 40px auto;
+  cursor: pointer;
+  padding-top: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.projects .projects-button:hover {
+  background-color: #000;
 }
 
 [class*="col-"] {
