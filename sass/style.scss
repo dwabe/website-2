@@ -20,8 +20,6 @@ body {
     clear: both;
 }
 
-
-
 header {
     height: 720px;
     width: 100%;
@@ -157,6 +155,61 @@ header {
         cursor: pointer;
         &:hover {
             background-color: #000;
+        }
+    }
+}
+
+.services {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding-bottom: 50px;
+    .services-header {
+        h1 {
+            font-size: 30px;
+            margin-top: 60px;
+            padding-top: 40px;
+            color: #FFF;
+        }
+        p {
+            font-size: 15px;
+            font-weight: 600;
+            color: #ADADAD;
+            margin-top: -20px;
+        }
+    }
+
+    .services-content {
+        text-align: center;
+        margin-top: 40px;
+        h1 {
+            text-transform: uppercase;
+            font-size: 18px;
+            color: #FFF;
+        }
+        p {
+            color: #3F3F3F;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            font-size: 60px;
+            color: #B78B57;
+            background-color: #000;
+            border: 1px solid #000;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.10);
+            }
+        }
+        .service {
+            padding: 0 35px;
+            border-left: 2px solid #383838;
+        }
+        .service-right {
+            border-right: 2px solid #383838;
         }
     }
 }
