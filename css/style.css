@@ -241,51 +241,51 @@ header .hero .call-button .call-button-icon:hover {
   border-right: 2px solid #383838;
 }
 
-.projects .projects-header {
+.our-projects .our-projects-header {
   text-align: center;
   text-transform: uppercase;
 }
 
-.projects .projects-header h1 {
+.our-projects .our-projects-header h1 {
   font-size: 30px;
   color: #000;
   margin-top: 60px;
 }
 
-.projects .projects-header p {
+.our-projects .our-projects-header p {
   font-size: 15px;
   color: #ADADAD;
   margin-top: -20px;
   font-weight: 600;
 }
 
-.projects .projects-nav {
+.our-projects .our-projects-nav {
   text-align: center;
   padding: 30px 0;
 }
 
-.projects .projects-nav li {
+.our-projects .our-projects-nav li {
   display: inline-block;
   border: 1px solid #CFCFCF;
   background-color: #EDEDED;
 }
 
-.projects .projects-nav li:hover {
+.our-projects .our-projects-nav li:hover {
   border-bottom: 5px solid #B78B57;
   margin-bottom: -5px;
 }
 
-.projects .projects-nav .projects-nav-left {
+.our-projects .our-projects-nav .our-projects-nav-left-end {
   border-radius: 40px 0 0 40px;
   width: 120px;
 }
 
-.projects .projects-nav .projects-nav-right {
+.our-projects .our-projects-nav .our-projects-nav-right-end {
   border-radius: 0 40px 40px 0;
   width: 120px;
 }
 
-.projects .projects-nav a {
+.our-projects .our-projects-nav a {
   display: block;
   color: #000;
   text-decoration: none;
@@ -293,7 +293,7 @@ header .hero .call-button .call-button-icon:hover {
   padding: 20px 10px;
 }
 
-.projects .projects-gallery-item {
+.our-projects .our-projects-gallery-item {
   display: block;
   position: relative;
   width: auto;
@@ -301,16 +301,16 @@ header .hero .call-button .call-button-icon:hover {
   margin: 10px;
 }
 
-.projects .projects-gallery-item:hover .layer {
+.our-projects .our-projects-gallery-item:hover .layer {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.projects .projects-gallery-item:hover .layer h1,
-.projects .projects-gallery-item:hover .layer p {
+.our-projects .our-projects-gallery-item:hover .layer h1,
+.our-projects .our-projects-gallery-item:hover .layer p {
   opacity: 1;
 }
 
-.projects .projects-gallery-item .layer {
+.our-projects .our-projects-gallery-item .layer {
   position: absolute;
   top: 0;
   left: 0;
@@ -322,8 +322,8 @@ header .hero .call-button .call-button-icon:hover {
   cursor: pointer;
 }
 
-.projects .projects-gallery-item .layer h1,
-.projects .projects-gallery-item .layer p {
+.our-projects .our-projects-gallery-item .layer h1,
+.our-projects .our-projects-gallery-item .layer p {
   position: relative;
   padding-top: 10px;
   font-weight: 400;
@@ -331,7 +331,7 @@ header .hero .call-button .call-button-icon:hover {
   transition: .8s;
 }
 
-.projects .projects-button {
+.our-projects .our-projects-button {
   border-radius: 25px;
   width: 195px;
   height: 45px;
@@ -347,8 +347,95 @@ header .hero .call-button .call-button-icon:hover {
   font-weight: 600;
 }
 
-.projects .projects-button:hover {
+.our-projects .our-projects-button:hover {
   background-color: #000;
+}
+
+.our-team {
+  height: 700px;
+  width: 100%;
+  background-image: url(../images/team_back.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+}
+
+.our-team .our-team-header {
+  text-transform: uppercase;
+}
+
+.our-team .our-team-header h1 {
+  margin-top: 60px;
+  padding-top: 40px;
+  color: #FFF;
+  font-size: 30px;
+}
+
+.our-team .our-team-header p {
+  margin-top: -20px;
+  color: #ADADAD;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.our-team .our-team-content {
+  text-align: center;
+}
+
+.our-team .our-team-content .our-team-item {
+  height: 432px;
+  max-width: 335px;
+  margin: 15px;
+  padding-top: 50px;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+.our-team .our-team-content .our-team-item h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.our-team .our-team-content .our-team-item p {
+  margin-top: -15px;
+}
+
+.our-team .our-team-content .our-team-item img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.our-team .our-team-content .our-team-item img:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.our-team .our-team-content .our-team-item .social-buttons {
+  margin-top: 35px;
+  background-color: #FFF;
+}
+
+.our-team .our-team-content .our-team-item .social-buttons .social-button {
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  color: #FFFFFF;
+  background-color: #BDBDBD;
+  border: 0;
+  border-radius: 50%;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.our-team .our-team-content .our-team-item .social-buttons .social-button:hover {
+  transform: scale(1.1);
+  background-color: #B78B58;
+}
+
+.our-team .pagination-dots {
+  text-align: center;
+  margin-top: 50px;
 }
 
 [class*="col-"] {
