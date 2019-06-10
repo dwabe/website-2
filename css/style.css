@@ -652,6 +652,156 @@ header .hero .call-button .call-button-icon:hover {
   margin-top: 50px;
 }
 
+.some-facts {
+  min-height: 410px;
+  max-height: 100%;
+  background-color: #000;
+  text-align: center;
+}
+
+.some-facts .some-facts-header {
+  text-transform: uppercase;
+}
+
+.some-facts .some-facts-header h1 {
+  font-size: 30px;
+  color: #FFF;
+  padding-top: 30px;
+}
+
+.some-facts .some-facts-header p {
+  margin-top: -20px;
+  font-size: 15px;
+  color: #ADADAD;
+  font-weight: 600;
+}
+
+.some-facts .some-facts-content h1 {
+  font-size: 45px;
+  color: #B88B58;
+  cursor: pointer;
+}
+
+.some-facts .some-facts-content h1:hover {
+  transform: scale(1.1);
+}
+
+.some-facts .some-facts-content h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 0 30px;
+}
+
+.some-facts .some-facts-content hr {
+  margin-top: -30px;
+  width: 20px;
+  border: 2px solid #7E7E7E;
+}
+
+.some-facts .some-facts-content p {
+  padding: 0 30px;
+  font-size: 15px;
+  color: #7E7E7E;
+}
+
+.social-icons {
+  padding: 20px 0;
+  padding-left: 45px;
+  border-bottom: 1px solid #D0D0D0;
+  text-align: center;
+}
+
+.social-icons .social-icons-header {
+  text-align: right;
+}
+
+.social-icons .social-icons-header .social-icon-share {
+  font-size: 30px;
+  color: #AEAEAE;
+  background-color: #FFF;
+  border: 0;
+}
+
+.social-icons .social-icons-header .social-icon-share-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #AEAEAE;
+  text-transform: uppercase;
+}
+
+.social-icons .social-icons-content {
+  text-align: left;
+}
+
+.social-icons .social-icons-content .social-icon {
+  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  color: #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+.social-icons .social-icons-content .social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icons .social-icons-content .social-icon-number {
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: -25px;
+  color: #AEAEAE;
+}
+
+.social-icons .social-icons-content .twitter {
+  color: #4099FF;
+}
+
+.social-icons .social-icons-content .twitter:hover {
+  color: #FFF;
+  background-color: #4099FF;
+}
+
+.social-icons .social-icons-content .linkedin {
+  color: #117BB2;
+}
+
+.social-icons .social-icons-content .linkedin:hover {
+  color: #FFF;
+  background-color: #117BB2;
+}
+
+.social-icons .social-icons-content .facebook {
+  color: #3B5998;
+}
+
+.social-icons .social-icons-content .facebook:hover {
+  color: #FFF;
+  background-color: #3B5998;
+}
+
+.social-icons .social-icons-content .google-plus {
+  color: #DB5A3C;
+}
+
+.social-icons .social-icons-content .google-plus:hover {
+  color: #FFF;
+  background-color: #DB5A3C;
+}
+
+.social-icons .social-icons-content .pinterest {
+  color: #B61B29;
+}
+
+.social-icons .social-icons-content .pinterest:hover {
+  color: #FFF;
+  background-color: #B61B29;
+}
+
 [class*="col-"] {
   float: left;
   min-height: 1px;
