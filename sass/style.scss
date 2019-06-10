@@ -134,6 +134,7 @@ header {
     }
     .about-us-text p {
         padding-top: 5px;
+        padding-left: 10px;
     }
     .about-us-text img {
         width: 100%;
@@ -152,6 +153,7 @@ header {
         text-transform: uppercase;
         margin-top: 60px;
         padding-top: 13px;
+        margin-left: 5px;
         cursor: pointer;
         &:hover {
             background-color: #000;
@@ -838,6 +840,7 @@ header {
         .footer-copyright {
             position: absolute;
             padding-top: 130px;
+            padding-left: 10px;
             font-size: 14px;
             font-weight: 500;
             color: #FFF;
