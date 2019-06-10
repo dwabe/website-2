@@ -763,6 +763,54 @@ header {
     }
 }
 
+.map {
+    height: 415px;
+    width: 100%;
+    background-image: url(../images/map.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    .map-content {
+        height: 340px;
+        max-width: 540px;
+        padding: 45px 0 0 0;
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+        p {
+            font-size: 14px;
+            font-weight: 500;
+            color: #7E7E7E;
+        }
+        .map-icon {
+            width: 35px;
+            height: 35px;
+            margin: 5px 0 0 40px;
+            border: 0;
+            border-radius: 50%;
+            font-size: 22px;
+            color: #FFFFFF;
+            background-color: #ADADAD;
+        }
+    }
+    .go-up-button {
+        margin: 10px 0 0 30px;
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #B78B57;
+        color: #FFF;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 25px;
+        padding-bottom: 5px;
+        &:hover {
+            transform: scale(1.10);
+        }
+    }
+}
+
+
 
 [class*="col-"] {
     float: left;
