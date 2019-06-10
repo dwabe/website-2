@@ -88,7 +88,7 @@ header .hero p {
   margin-top: -30px;
 }
 
-header .hero .button {
+header .hero .hero-in-touch-button {
   width: 195px;
   height: 45px;
   color: #FFF;
@@ -103,7 +103,7 @@ header .hero .button {
   cursor: pointer;
 }
 
-header .hero .button:hover {
+header .hero .hero-in-touch-button:hover {
   background-color: #000;
 }
 
@@ -111,12 +111,12 @@ header .hero .pagination-dots {
   margin-top: 110px;
 }
 
-header .hero .call-button {
+header .hero .hero-call-button {
   text-align: right;
   margin: 0px 50px;
 }
 
-header .hero .call-button .call-button-icon {
+header .hero .hero-call-button .call-button-icon {
   width: 60px;
   height: 60px;
   border: 0;
@@ -128,7 +128,7 @@ header .hero .call-button .call-button-icon {
   cursor: pointer;
 }
 
-header .hero .call-button .call-button-icon:hover {
+header .hero .hero-call-button .call-button-icon:hover {
   transform: scale(1.1);
 }
 
@@ -159,7 +159,7 @@ header .hero .call-button .call-button-icon:hover {
   height: auto;
 }
 
-.about-us .button {
+.about-us .about-us-button {
   width: 195px;
   height: 45px;
   border-radius: 25px;
@@ -175,7 +175,7 @@ header .hero .call-button .call-button-icon:hover {
   cursor: pointer;
 }
 
-.about-us .button:hover {
+.about-us .about-us-button:hover {
   background-color: #000;
 }
 
@@ -843,11 +843,11 @@ header .hero .call-button .call-button-icon:hover {
   color: #9E9E9E;
 }
 
-.contact-us .contact-us-form .input_more {
+.contact-us .contact-us-form .input-more {
   width: 525px;
 }
 
-.contact-us .contact-us-form .input_message {
+.contact-us .contact-us-form .input-message {
   margin-top: 80px;
 }
 
@@ -960,6 +960,10 @@ header .hero .call-button .call-button-icon:hover {
   color: #FFF;
 }
 
+.footer .footer-text {
+  padding: 5px 10px;
+}
+
 .footer .footer-newsletter {
   height: 190px;
   width: 100%;
@@ -1056,5 +1060,132 @@ header .hero .call-button .call-button-icon:hover {
 
 .col-12 {
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  header nav ul {
+    float: none;
+  }
+  header nav ul li {
+    display: block;
+  }
+  header nav ul li a {
+    padding: 5px 12px;
+  }
+  header nav ul li a:hover {
+    margin: 0 auto;
+    padding-bottom: 4px;
+    color: #B78B57;
+    border-bottom: 2px solid #B78B57;
+  }
+  header .hero h1 {
+    margin-top: 40px;
+    font-size: 25px;
+  }
+  header .hero p {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  header .hero .hero-in-touch-button {
+    margin: 30px auto 0 auto;
+  }
+  header .hero .pagination-dots {
+    display: none;
+  }
+  header .hero .hero-call-button {
+    display: none;
+  }
+  .about-us .about-us-text {
+    padding: 0 20px;
+  }
+  .about-us .about-us-text .about-us-button {
+    margin: 0 auto;
+  }
+  .our-team {
+    height: 100%;
+  }
+  .our-team .our-team-content {
+    text-align: center;
+  }
+  .our-team .our-team-content .our-team-item {
+    float: none;
+    margin: 20px auto;
+  }
+  .our-team .pagination-dots {
+    display: none;
+  }
+  .happy-clients .happy-clients-content p {
+    padding: 0 20px;
+  }
+  .happy-clients .pagination-dots {
+    display: none;
+  }
+  .price .price-content .price-item {
+    margin-top: 20px;
+  }
+  .premium .premium_content .premium-icon {
+    display: none;
+  }
+  .premium .pagination-dots {
+    display: none;
+  }
+  .social-icons .social-icons-header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .social-icons .social-icons-content {
+    text-align: center;
+  }
+  .contact-us .contact-us-form .input-more {
+    max-width: 250px;
+  }
+  .footer .footer-social-icons {
+    text-align: center;
+  }
+  .footer .footer-copyright {
+    padding: 10px 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

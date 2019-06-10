@@ -75,7 +75,7 @@ header {
             color: #FFF;
             margin-top: -30px;
         }
-        .button {
+        .hero-in-touch-button {
             width: 195px;
             height: 45px;
             color: #FFF;
@@ -95,7 +95,7 @@ header {
         .pagination-dots {
             margin-top: 110px;
         }
-        .call-button {
+        .hero-call-button {
             text-align: right;
             margin: 0px 50px;
             .call-button-icon {
@@ -139,7 +139,7 @@ header {
         width: 100%;
         height: auto;
     }
-    .button {
+    .about-us-button {
         width: 195px;
         height: 45px;
         border-radius: 25px;
@@ -736,10 +736,10 @@ header {
             margin-top: 30px;
             color: #9E9E9E; 
         }
-        .input_more {
+        .input-more {
             width: 525px;
         }
-        .input_message {
+        .input-message {
             margin-top: 80px;
         }
         .contact-us-button {
@@ -843,6 +843,9 @@ header {
             color: #FFF;
         }
     }
+    .footer-text {
+        padding: 5px 10px;
+    }
     .footer-newsletter {
         height: 190px;
         width: 100%;
@@ -937,4 +940,159 @@ header {
 
 .col-12 {
     width: 100%;
+}
+
+@media (max-width: 767px) {
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+
+    header {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        nav {
+            ul {
+                float: none;
+                li {
+                    display: block;
+                    a {
+                        padding: 5px 12px;
+                        &:hover {
+                            margin: 0 auto;
+                            padding-bottom: 4px;
+                            color: #B78B57;
+                            border-bottom: 2px solid #B78B57;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero {
+            h1 {
+                margin-top: 40px;
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            .hero-in-touch-button {
+                margin: 30px auto 0 auto;
+            }
+            .pagination-dots {
+                display: none;
+            }
+            .hero-call-button {
+                display: none;
+            }
+        }
+    }
+    .about-us {
+        .about-us-text {
+            padding: 0 20px;
+            .about-us-button {
+                margin: 0 auto;
+            }
+        }
+    }
+    .our-team {
+        height: 100%;
+        .our-team-content {
+            text-align: center;
+            .our-team-item {
+                float: none;
+                margin: 20px auto;
+            }
+        }
+        .pagination-dots {
+            display: none;
+        }
+    }
+    .happy-clients {
+        .happy-clients-content {
+            p {
+                padding: 0 20px;
+            }
+        }
+        .pagination-dots {
+            display: none;
+        }
+    }
+    .price {
+        .price-content {
+            .price-item {
+                margin-top: 20px;
+            }
+        }
+    }
+    .premium {
+        .premium_content {
+            .premium-icon {
+                display: none;
+            }
+        }
+        .pagination-dots {
+            display: none;
+        }
+    }
+    .social-icons {
+        .social-icons-header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .social-icons-content {
+            text-align: center;
+        }
+    }
+    .contact-us {
+        .contact-us-form {
+            .input-more {
+                max-width: 250px;
+            }
+        }
+    }
+    .footer {
+        .footer-social-icons {
+            text-align: center;
+        }
+        .footer-copyright {
+            padding: 10px 5px;
+        }
+    }
 }
