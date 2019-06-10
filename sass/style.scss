@@ -703,6 +703,65 @@ header {
     }
 }
 
+.contact-us {
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+    .contact-us-header {
+        text-transform: uppercase;
+        text-align: center;
+        h1 {
+            font-size: 30px;
+            margin-top: 0;
+            padding-top: 30px;
+            color: #000;
+        }
+        p {
+            font-size: 15px;
+            margin-top: -20px;
+            font-weight: 600;
+            color: #ADADAD;
+        }
+    }
+    .contact-us-form {
+        margin-top: 60px;
+        input {
+            width: 250px;
+            padding-bottom: 10px;
+            font-size: 14px;
+            background-color: #F7F7F7;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 2px solid #AEAEAE;
+            margin-top: 30px;
+            color: #9E9E9E; 
+        }
+        .input_more {
+            width: 525px;
+        }
+        .input_message {
+            margin-top: 80px;
+        }
+        .button {
+            width: 194px;
+            height: 45px;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 40px auto;
+            padding-top: 13px;
+            text-align: center;
+            background-color: #B88B58;
+            border-color: #B88B58;
+            color: #FFF;
+            border-radius: 25px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+                background-color: #000;
+            }
+        }
+    }
+}
 
 
 [class*="col-"] {
